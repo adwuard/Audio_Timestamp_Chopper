@@ -1,4 +1,4 @@
-![alt text]('img/demoImg.png")
+![demoimg](https://github.com/adwuard/Audio_Timestamp_Chopper/blob/master/img/demoImg.png)
 
 ## Description
 Single audio file with timestamp file this automate and export chopped audio files
@@ -28,7 +28,7 @@ track1 # 0:00
 track2 # 1:12 # 1:30
 // track3 # 1:45
 ```
-End timestamp is optional and if it is not defined than it will end before the next track starts by default
+End timestamp is optional. If it is not defined than the chop will end before the next track starts by default
 
 
 ## Usage
