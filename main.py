@@ -2,7 +2,7 @@ import os
 from os.path import basename, join
 from pydub import AudioSegment
 
-import_Folder_Path = "import/song2"
+import_Folder_Path = "import/song1"
 
 class ProjectFolder:
     time_Stamp = ""
@@ -60,7 +60,6 @@ class ProjectFolder:
                     _, s2, _ = (list(self.time_Stamp_Data[i + 1]) + [None] * 3)[:3]
                     self.exportChop(audio, filename, start_time_mill, s2)
                 else:
-                    print(audio_source_end)
                     self.exportChop(audio, filename, start_time_mill, audio_source_end)
 
     def run(self):
