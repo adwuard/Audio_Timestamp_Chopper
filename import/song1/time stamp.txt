@@ -1,0 +1,5 @@
+// Time Stamp format
+// Track Name # Starting Time # End Time (Optional)
+track1 # 0:00
+track2 # 1:12 # 1:30
+track3 # 1:45
